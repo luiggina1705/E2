@@ -17,10 +17,7 @@
   --text-gray: #190838;
   --text-white: #f3f4f6;
 
-  
-  --fire: #ff6d00;
-  --electric: #64d3ff;
-}
+     }
 header
 {
     background: var(--nav-bg);
@@ -54,4 +51,16 @@ header
 .navbar-list a {
     color: var(--text-white);
     font-size: 14px;
+}
+
+.cart-icon
+{
+    font-weight: 600;
+    border-radius: 10px;
+    height: 30px;
+    padding: 5px 10px;
+    margin-right: 1rem;
+    color: var(--text-white);
+    cursor: pointer;
+    border: 1px solid black;
 }
