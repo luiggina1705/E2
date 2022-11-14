@@ -151,7 +151,7 @@ main
     width: 70%;
     color: #1c3b23; 
     text-align: center;
-    text-hight: 5px;
+    line-height: 15px;
 
 }
 
@@ -159,6 +159,9 @@ main
 {
     font-family: oblique;
 }
+
+
+ 
 
 
 
