@@ -28,7 +28,8 @@
      }
 header
 {
-    background: var(--nav-bg);
+    /*background: var(--nav-bg);*/
+    background-image: url(./img/fondo1.jpg);
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -128,7 +129,10 @@ main
   margin-right: 20px;
   font-size: 14px;
   text-align: center;
-  
+}
+
+.hero-card {
+    margin-right: 50px;
 }
 
 #info
@@ -149,6 +153,11 @@ main
     text-align: center;
     text-hight: 5px;
 
+}
+
+.info-text a
+{
+    font-family: oblique;
 }
 
 
