@@ -157,16 +157,62 @@ main
 
 .info-text a
 {
-    font-family: oblique;
+    font-family: italic;
 }
 
 
- 
+#icards
+{
+    padding: 70px 0px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;    
+}
 
+#icards h2 {
+    font-size: 32px;
+    font-weight: 200px;
+    color: #3d866a;
+}
 
+#icards h3 {
+    font-size: 24px;
+    font-weight: 100px;
+    color: #69c2a0;
+}
 
+.icards-container 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 
+.info-card
+{
+    width: 280px;
+    height: 240px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: url(./img/fondo1.jpg);
+    border-radius: 15px;
+}
 
+.info-card h3 {
+    font-size: 18px;
+    color: #02050e;
+}
 
+.info-card p {
+    font-style: oblique;
+ }
 
 
