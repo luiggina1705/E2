@@ -222,7 +222,7 @@ info-card p {
  }
 
  .contact h2 {
-    font-size: 13px;
+    font-size: 15px;
  }
 
  .icon
@@ -236,5 +236,13 @@ info-card p {
  .contact-foto
  {
     padding: 0px 20px;
-    border-radius: 20px;
+    
+    
+    
+ }
+
+ .contact ul > a
+ {
+    font-size: 13px;
+    color: #02050e;
  }
