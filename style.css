@@ -210,7 +210,7 @@ info-card p {
     font-style: oblique;
  }
 
- footer {
+ #contacto {
     background-image: url(./img/fondo.jpg);
     background-position: center;
     background-size: contain;
@@ -243,4 +243,20 @@ info-card p {
  {
     font-size: 13px;
     color: #02050e;
+ }
+
+ #footer {
+    background-image: url(./img/fondo.jpg);
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+ }
+
+ .footer p {
+    color:#02050e;
+    font-size: 10px;
  }
